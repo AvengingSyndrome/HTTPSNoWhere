@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+
+	"name": "HTTPSNoWhere",
+	"description": "Protect yourself from the illusion of security. Replaces all HTTPS requests with HTTP ones.",
+	"version": "1.0",
+    "background":
+    {
+	  "scripts": ["HTTPSNoWhere.js"],
+	  "persistent": true
+      
+    },
+	
+	"permissions": [
+          "webRequest",
+		  "webRequestBlocking",
+          "<all_urls>"
+        ]
+	
+	
+}
